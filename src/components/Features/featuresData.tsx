@@ -106,7 +106,7 @@ const featuresData: Feature[] = [
     ),
     title: " E-Commerce ",
     paragraph:
-      " E-Commerce - Creating a Strong Online Presence.  || E-Commerce Management System - Streamlining Your Business Processes.  || E-Commerce Marketing Strategy - Maximizing Your Online Reach.  || E-Commerce Analytics - Understanding Your Customers.  || E-Commerce Payment Gateway - Securing Your Transactions.  || E-Commerce Inventory Management - Managing Your Stock.  || E-Commerce Shipping Management - Efficiently Delivering Products.  || E-Commerce Customer Service - Providing Excellent Support.  || E-Commerce Order Management - Ensuring Customer Satisfaction.  ",
+      " E-Commerce - Creating a Strong Online Presence.  || E-Commerce Management System - Streamlining Your Business Processes.  || E-Commerce Marketing Strategy - Maximizing Your Online Reach.  ",
   },
 ];
 export default featuresData;

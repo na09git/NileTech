@@ -5,7 +5,7 @@ const clientData: Brand[] = [
     id: 6,
     name: "niletech",
     href: "https://niletech.com",
-    image: "/images/client/niletech.",
+    image: "/images/client/niletech.png",
     imageLight: "/images/client/niletech.png",
   },
   {
@@ -15,13 +15,7 @@ const clientData: Brand[] = [
     image: "/images/client/melka.jpg",
     imageLight: "/images/client/melka.jpg",
   },
-  {
-    id: 2,
-    name: "Google",
-    href: "https://Google.com",
-    image: "/images/client/google.png",
-    imageLight: "/images/client/google.png",
-  },
+
   {
     id: 3,
     name: "haramaya",
@@ -42,6 +36,13 @@ const clientData: Brand[] = [
     href: "https://ararsobusiness.onrender.com",
     image: "/images/client/ararso.png",
     imageLight: "/images/client/ararso.png",
+  },
+  {
+    id: 5,
+    name: "bilal",
+    href: "https://bilalmadrasa.onrender.com",
+    image: "/images/client/bilal.jpg",
+    imageLight: "/images/client/bilal.jpg",
   },
 ];
 

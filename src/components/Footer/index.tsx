@@ -55,7 +55,7 @@ const Footer = () => {
                       </svg>
                     </a>
                     <a
-                      href="/"
+                      href="https://x.com/NileTech15"
                       aria-label="social-link"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -77,7 +77,7 @@ const Footer = () => {
                       </svg>
                     </a>
                     <a
-                      href="/"
+                      href="https://www.youtube.com/@NileTech1"
                       aria-label="social-link"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -93,7 +93,7 @@ const Footer = () => {
                       </svg>
                     </a>
                     <a
-                      href="/"
+                      href="https://www.linkedin.com/company/103406556/admin/feed/posts/"
                       aria-label="social-link"
                       target="_blank"
                       rel="noopener noreferrer"
