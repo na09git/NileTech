@@ -17,11 +17,12 @@ const PortfolioPage = () => {
       <Breadcrumb
         pageName="Portfolio Page"
         description="Innovation is the core of everything we do.
-Discover our diverse portfolio and witness our exceptional projects. Explore the remarkable solutions we have crafted at NileTech."
+                    Discover our diverse portfolio and witness our
+                    exceptional projects. Explore the remarkable solutions
+                    we have crafted at Nile Technology Solution."
       />
 
       <PortfolioSectionOne />
-
 
     </>
   );

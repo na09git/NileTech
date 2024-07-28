@@ -45,7 +45,8 @@ const BlogPost: React.FC = () => {
       });
       console.log("Post created successfully:", newPost);
     } catch (error) {
-      console.error("Error creating post:", error);
+      return null;
+      // console.error("Error creating post:", error);
     }
   };
 
