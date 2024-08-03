@@ -22,10 +22,7 @@ export async function POST(request: NextRequest) {
   });
 
   if (user)
-    return NextResponse.json(
-      { error: "User already exists" },
-      { status: 400 }
-    );
+    return NextResponse.json({ error: "User already exists" }, { status: 400 });
 
   const newUser = await prisma.user.create({
     data: {

@@ -8,7 +8,7 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
-    id: 2,
+    id: 2, githu
     title: "About",
     path: "/about",
     newTab: false,

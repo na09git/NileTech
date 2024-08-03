@@ -5,7 +5,6 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { NextAuthOptions } from "next-auth";
 
-
 // import { validateSubscriberLogin } from "@/app/utils/validation";
 
 let currentUser;
@@ -14,7 +13,6 @@ const schema = z.object({
   password: z.string().min(5),
 });
 export const authOptions: NextAuthOptions = {
-
   session: {
     strategy: "jwt",
   },
@@ -28,15 +26,14 @@ export const authOptions: NextAuthOptions = {
       },
       async authorize(credentials, req) {
         const prisma = new PrismaClient();
-        
+
         let userCredentials = {
           email: credentials.email,
           password: credentials.password,
         };
-        
-        console.log("userCredentails: ", userCredentials)
-        await new Promise(resolve => setTimeout(resolve, 5000)); // Sleep for 2 seconds
-        
+
+        console.log("userCredentails: ", userCredentials);
+        await new Promise((resolve) => setTimeout(resolve, 5000)); // Sleep for 2 seconds
 
         // validate Subscriber inputs
         // const { error } = validateSubscriberLogin(userCredentials);
@@ -62,7 +59,7 @@ export const authOptions: NextAuthOptions = {
         });
 
         if (!user) {
-          console.log("No User:")
+          console.log("No User:");
           throw new Error("Invalid Username or Password!");
         } else {
           const validPassword = await bcrypt.compare(
@@ -127,7 +124,6 @@ export const authOptions: NextAuthOptions = {
 };
 // export default authOptions;
 
-
 // import { prisma } from "prisma/client";
 // import { PrismaAdapter } from "@next-auth/prisma-adapter";
 // import { NextAuthOptions } from "next-auth";
@@ -136,7 +132,7 @@ export const authOptions: NextAuthOptions = {
 // import bcrypt from "bcrypt";
 
 // export const authOptions: NextAuthOptions = {
-  
+
 //   adapter: PrismaAdapter(prisma),
 //   providers: [
 //     CredentialsProvider({
@@ -169,7 +165,6 @@ export const authOptions: NextAuthOptions = {
 //           user.hashedPassword!
 //         );
 
-
 //         return passwordsMatch ? user : null;
 //       },
 //     }),
@@ -181,6 +176,5 @@ export const authOptions: NextAuthOptions = {
 //   session: {
 //     strategy: "jwt",
 //   },
-
 
 // };

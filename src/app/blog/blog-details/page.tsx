@@ -1411,12 +1411,18 @@ function BlogDetails() {
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://x.com/NileTech15" className="hover:underline">
+                  <a
+                    href="https://x.com/NileTech15"
+                    className="hover:underline"
+                  >
                     Twitter
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://www.facebook.com/profile.php?id=61556321663312" className="hover:underline">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61556321663312"
+                    className="hover:underline"
+                  >
                     Facebook
                   </a>
                 </li>

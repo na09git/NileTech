@@ -8,7 +8,7 @@ const checkIcon = (
 );
 
 const ImageBlock = ({ src, alt, darkSrc, title }) => (
-  <div className="w-full px-4 lg:w-1/2 mb-12 text-center">
+  <div className="mb-12 w-full px-4 text-center lg:w-1/2">
     <div
       className="relative mx-auto aspect-[25/24] max-w-[500px] lg:m-0"
       data-wow-delay=".15s"

@@ -2,7 +2,6 @@ import AboutSectionOne from "@/components/About/AboutSectionOne";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Service from "@/components/Service";
 
-
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

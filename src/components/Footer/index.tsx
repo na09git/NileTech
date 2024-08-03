@@ -177,13 +177,8 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              © Copy Right 2024   Nile Technology Solution   All Right Reserved!{" "}
-
-
-              {" "}
-              {" "}
-              {" "}   -  Powered By {" "}
-              {" "}
+              © Copy Right 2024 Nile Technology Solution All Right Reserved! -
+              Powered By{" "}
               <a
                 href="https://niletech.co"
                 target="_blank"

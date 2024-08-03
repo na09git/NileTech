@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const SigninPage = () => {
-  const handleLoginSuccess = () => { };
+  const handleLoginSuccess = () => {};
   // const [email, setEmail] = React.useState<string>('');
   // const [password, setPassword] = React.useState<string>('');;
 

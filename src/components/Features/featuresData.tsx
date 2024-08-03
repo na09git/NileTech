@@ -30,7 +30,6 @@ const featuresData: Feature[] = [
     title: "Website Development & App Development",
     paragraph:
       "🌐 Creating stunning websites for online success. && Innovative Mobile App Solutions - Powering Seamless Experiences.",
-
   },
   {
     id: 1,
@@ -75,8 +74,7 @@ const featuresData: Feature[] = [
     ),
 
     title: "📱 Chat Bot Development ",
-    paragraph:
-      "📱 Chat Bot Development - Creating Interactive Chatbots. ",
+    paragraph: "📱 Chat Bot Development - Creating Interactive Chatbots. ",
   },
   {
     id: 1,

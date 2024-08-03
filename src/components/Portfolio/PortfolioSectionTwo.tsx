@@ -2,9 +2,12 @@ import Image from "next/image";
 
 const PortfolioSectionTwo = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28" data-accordion-target="{selector}">
+    <section
+      className="py-16 md:py-20 lg:py-28"
+      data-accordion-target="{selector}"
+    >
       <div className="container">
-        <div className="-mx-4 flex flex-wrap items-center" >
+        <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
             <div
               className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
@@ -24,16 +27,9 @@ const PortfolioSectionTwo = () => {
               />
             </div>
           </div>
-
-
-
-
-
         </div>
       </div>
-    </section >
-
-
+    </section>
   );
 };
 

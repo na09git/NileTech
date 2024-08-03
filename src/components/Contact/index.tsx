@@ -2,7 +2,6 @@ import NewsLatterBox from "./NewsLatterBox";
 
 const Service = () => {
   return (
-
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
         <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
@@ -15,7 +14,7 @@ const Service = () => {
               For External Relations and Communication
             </h2>
             <p className="mb-12 text-base font-medium text-body-color">
-              ◇ E-mail :  niletech1513@gmail.com
+              ◇ E-mail : niletech1513@gmail.com
             </p>
             <p className="mb-12 text-base font-medium text-body-color">
               ◇ Website: www.niletech.co
@@ -28,8 +27,6 @@ const Service = () => {
             </p>
           </div>
         </div>
-
-
 
         {/* <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">

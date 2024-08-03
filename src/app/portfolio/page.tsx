@@ -23,7 +23,6 @@ const PortfolioPage = () => {
       />
 
       <PortfolioSectionOne />
-
     </>
   );
 };

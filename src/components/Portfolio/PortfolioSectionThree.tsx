@@ -36,14 +36,10 @@ const PortfolioSectionThree = () => {
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text=" Towards Digital - ወደ ዲጂታል - Gara dijiitaalaa " />
-
                   </div>
-
                 </div>
               </div>
             </div>
-
-
           </div>
         </div>
       </div>
